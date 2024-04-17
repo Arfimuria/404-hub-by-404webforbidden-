@@ -368,6 +368,17 @@ tool.Parent = game.Players.LocalPlayer.Backpack
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+Tab:AddButton({
+	Name = "Anti Fall",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/AntiFall/main/Script"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
 local Section = Tab:AddSection({
 	Name = "Local Player"
 })
