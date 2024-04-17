@@ -435,7 +435,7 @@ Callback = <function> - The function of the button.
 ]]
 Tab:AddLabel("This Hub Was Made By @404webforbidden On TT")
 local Tab = Window:MakeTab({
-	Name = "Aiming",
+	Name = "Aim And PVP",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -446,7 +446,7 @@ Icon = <string> - The icon of the tab.
 PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 local Section = Tab:AddSection({
-	Name = "Universal Silent Aim"
+	Name = "Silent Aims"
 })
 
 --[[
@@ -456,6 +456,24 @@ Tab:AddButton({
 	Name = "Owl Hub",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Section = Tab:AddSection({
+	Name = "PVP"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Sword Reach",
+	Callback = function()
+      		loadstring(game:HttpGet('https://pastebin.com/raw/4cxpFYdT'))()
   	end    
 })
 
