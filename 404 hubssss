@@ -59,29 +59,7 @@ Tab:AddButton({
               loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
       end    
 })
-local Section = Tab:AddSection({
-	Name = "Remote Spy"
-})
 
---[[
-Name = <string> - The name of the section.
-]]
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
-Tab:AddButton({
-	Name = "Simple Spy V3",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
-  	end    
-})
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
 local Tab = Window:MakeTab({
     Name = "Animation",
     Icon = "rbxassetid://4483345998",
@@ -158,7 +136,7 @@ Tab:AddButton({
       end    
 })
 local Tab = Window:MakeTab({
-	Name = "BrookhavenRp",
+	Name = "Games",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -169,7 +147,7 @@ Icon = <string> - The icon of the tab.
 PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 local Section = Tab:AddSection({
-	Name = "Hubs"
+	Name = "Brookhaven Rp"
 })
 
 --[[
@@ -203,23 +181,8 @@ Tab:AddButton({
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
-local Tab = Window:MakeTab({
-	Name = "PrisonLife",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
---[[
-Name = <string> - The name of the tab.
-Icon = <string> - The icon of the tab.
-PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
-]]
 local Section = Tab:AddSection({
-	Name = "Admin Hubs/panels"
+	Name = "PrisonLife"
 })
 
 --[[
@@ -269,19 +232,8 @@ Tab:AddButton({
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
-local Tab = Window:MakeTab({
-	Name = "NDS RANDOM SC",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
---[[
-Name = <string> - The name of the tab.
-Icon = <string> - The icon of the tab.
-PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
-]]
 local Section = Tab:AddSection({
-	Name = "Panel Hub/ GUI"
+	Name = "NDS"
 })
 
 --[[
@@ -321,6 +273,76 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 local Tab = Window:MakeTab({
+	Name = "Aim And PVP",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+local Section = Tab:AddSection({
+	Name = "Aiming"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Silent Aim( Owl HUB)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Aim Bot",
+	Callback = function()
+      		loadstring(game:HttpGet(("https://raw.githubusercontent.com/Yousuck780/troll-x/main/ahhhh"), true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Section = Tab:AddSection({
+	Name = "PVP"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Sword Reach",
+	Callback = function()
+      		loadstring(game:HttpGet('https://pastebin.com/raw/0dnNLQgG'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Sword Fighting Botz(Press X Toggle)",
+	Callback = function()
+      		-- press x to turn on
+               loadstring(game:HttpGet('https://raw.githubusercontent.com/yeerma/1/main/bot'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Tab = Window:MakeTab({
 	Name = "Universal Script",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
@@ -330,6 +352,53 @@ local Tab = Window:MakeTab({
 Name = <string> - The name of the tab.
 Icon = <string> - The icon of the tab.
 PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+local Section = Tab:AddSection({
+	Name = "Keyboard"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Mobile Keyboard",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/GGH52lan/GGH52lan/main/keyboard.txt"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Section = Tab:AddSection({
+	Name = "Remote Spy"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Turtle Spy",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/BDhSQqUU", true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Simple Spy",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
 ]]
 local Section = Tab:AddSection({
 	Name = "Good For Obby And Tower"
@@ -464,53 +533,6 @@ Callback = <function> - The function of the button.
 ]]
 Tab:AddLabel("This Hub Was Made By @404webforbidden On TT")
 local Tab = Window:MakeTab({
-	Name = "Aim And PVP",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
---[[
-Name = <string> - The name of the tab.
-Icon = <string> - The icon of the tab.
-PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
-]]
-local Section = Tab:AddSection({
-	Name = "Silent Aims"
-})
-
---[[
-Name = <string> - The name of the section.
-]]
-Tab:AddButton({
-	Name = "Owl Hub",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
-  	end    
-})
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
-local Section = Tab:AddSection({
-	Name = "PVP"
-})
-
---[[
-Name = <string> - The name of the section.
-]]
-Tab:AddButton({
-	Name = "Button!",
-	Callback = function()
-      		loadstring(game:HttpGet('https://pastebin.com/raw/0dnNLQgG'))()
-  	end    
-})
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
-local Tab = Window:MakeTab({
 	Name = "Hubs",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
@@ -590,17 +612,6 @@ https://discord.gg/xwy5Cu62Vw
 
 ]]--
 loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/SkyHub.txt"))()
-  	end    
-})
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
-Tab:AddButton({
-	Name = "VexHub",
-	Callback = function()
-      		Loadstring(game:HttpGet("https://raw.githubusercontent.com/V31nc/On-Discord/Created/VexHub"))()
   	end    
 })
 
