@@ -14,7 +14,7 @@ Image = <string> - The icon of the notification.
 Time = <number> - The duration of the notfication.
 ]]
 local Tab = Window:MakeTab({
-    Name = "Universal Admin",
+    Name = "Admins And Remote Spy",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
@@ -58,6 +58,24 @@ Tab:AddButton({
     Callback = function()
               loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
       end    
+})
+local Section = Tab:AddSection({
+	Name = "Remote Spy"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Simple Spy V3",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
+  	end    
 })
 
 --[[
