@@ -462,6 +462,46 @@ Tab:AddButton({
   	end    
 })
 
+local Section = Tab:AddSection({
+	Name = "Fling"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "WalkFling",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Click Fling",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_5wpM7bBcOPspmX7lQ3m75SrYNWqxZ858ai3tJdEAId6jSI05IOUB224FQ0VSAswH.lua.txt'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fling GUI",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/fgasfga/Fe-Fling-GUI-For-roblox/main/Main.lua",true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
 --[[
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
