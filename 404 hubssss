@@ -659,3 +659,47 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/S
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+Tab:AddButton({
+	Name = "GigaChad Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/OWJBWKQLAISH/GigaChad-Hub/main/Version%20V3.5'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Equinox Hub",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://pastebin.com/raw/wzB1Qh78'),true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Universal FE ScriptHub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Juanko Universal ScriptHub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/d5BS5qiX"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
