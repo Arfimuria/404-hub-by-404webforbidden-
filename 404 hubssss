@@ -173,7 +173,10 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "R4D GUI",
 	Callback = function()
-      		loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
+      		--Brookhaven R4D 
+--By M1zz
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
   	end    
 })
 
@@ -393,6 +396,35 @@ Tab:AddButton({
 	Name = "Simple Spy",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Section = Tab:AddSection({
+	Name = "Backdoorsz"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Backdoor.exe",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "FraktureSS",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/L1ghtingBolt/FraktureSS/master/unobfuscated.lua"))()
   	end    
 })
 
