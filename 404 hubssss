@@ -14,7 +14,7 @@ Image = <string> - The icon of the notification.
 Time = <number> - The duration of the notfication.
 ]]
 local Tab = Window:MakeTab({
-    Name = "Admins And Remote Spy",
+    Name = "Admins",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
